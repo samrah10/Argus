@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Argus</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { font-family: Arial; text-align: center; background:#0a0a0a; color:white; }
+    video { width:90%; max-width:400px; border-radius:10px; margin-top:10px; }
+    button { margin:8px; padding:12px; font-size:16px; }
+  </style>
+</head>
+<body>
+  <h1>Argus</h1>
+  <video id="video" autoplay playsinline></video>
+  <p id="status">Ready</p>
+
+  <button onclick="startCamera()">Start Camera</button>
+  <button onclick="startScan()">Auto Scan</button>
+  <button onclick="startListening()">Set Goal</button>
+
+  <script src="app.js"></script>
+</body>
+</html>
